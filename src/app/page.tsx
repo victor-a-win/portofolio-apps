@@ -1,5 +1,9 @@
 import HomeView from "@/pages/home";
 
 export default function Home() {
-  return <HomeView />;
+  return (
+  <div className="bg-blue-200">
+    <HomeView />
+  </div>
+  )
 }

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+.Developer-Name {
+    span {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    font-family: "Baskervville", serif;
+}
+
+.Job{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Brief-Introduction{
+    font-family: "Baskervville", serif;
+}
+
+.Professional-Photo {
+        img {
+            border-radius: 10%;
+            padding: 10px;
+        }
+        img:hover {
+            box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5);
+        }
+}
+
+.view-portofolio {
+    border-style: groove;
+    border-radius: 10px 20px;
+    border-width: 4px;
+    border-color: rgb(240, 145, 29);
+
+    /*Desktop Screen-3*/
+    @media screen and (min-width: 1765px) {
+        margin: auto;
+        width: 8%;
+        padding: 6px;
+        margin-top: 25px;
+        position: relative;
+        right: 45%;
+    }
+    /*Desktop Screen-2*/
+    @media screen and (max-width: 1736px) {
+        margin: auto;
+        width: 20%;
+        padding: 6px;
+        margin-top: 25px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Desktop Screen-1*/
+    @media screen and (max-width: 1536px) {
+        margin: auto;
+        width: 20%;
+        padding: 6px;
+        margin-top: 25px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Laptop Screen-2*/
+    @media screen and (max-width: 1336px) {
+        margin: auto;
+        width: 20%;
+        padding: 6px;
+        margin-top: 25px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Laptop Screen-1*/
+    @media screen and (max-width: 1024px) {
+        margin: auto;
+        width: 20%;
+        padding: 6px;
+        margin-top: 10px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Tablet Screen*/
+    @media screen and (max-width: 768px) {
+        width: 25%;
+        padding: 6px;
+        position: relative;
+        right: 35.5%;
+}
+    /*Mobile Screen-Max*/
+    @media screen and (max-width: 480px) {
+        margin: -225px 85px;
+        width: 37%;
+        padding: 6px 10px 5px 10px;
+        position: absolute;
+    }
+
+    /*Mobile Screen-Small*/
+    @media screen and (max-width: 320px) {
+        margin: -250px 75px;
+        width: 35%;
+        padding: 6px 0px 5px 0px;
+        position: absolute;
+    }
+}
+
+.view-portofolio:hover{
+    background-color: azure;
+    color: black;
+    border-width: 6px;
+}
+.view-portofolio:active {
+    background-color: grey;
+    color: white;
+    border-width: 6px;
+}
+
+.contact-me {
+    border-style: groove;
+    border-radius: 20px 10px;
+    border-width: 4px;
+    border-color: rgb(238, 131, 0);
+
+    /*Desktop Screen-3*/
+    @media screen and (min-width: 1765px) {    
+        margin: auto;
+        width: 8%;
+        padding: 6px;
+        position: relative;
+        right: 45%;
+    }
+
+    /*Desktop Screen-2*/
+    @media screen and (max-width: 1736px) {
+        margin: auto;
+        width: 20%;
+        padding: 6px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Desktop Screen-1*/
+    @media screen and (max-width: 1536px) {
+        width: 20%;
+        padding: 6px;
+        right: 38%;
+    }
+
+    /*Laptop Screen-2*/
+    @media screen and (max-width: 1336px) {
+        width: 20%;
+        padding: 6px;
+        position: relative;
+        right: 38%;
+    }
+
+    /*Laptop Screen-1*/
+    @media screen and (max-width: 1024px) {
+        width: 20%;
+        padding: 6px;
+        margin-right: 400px;
+    }
+
+    /*Tablet Screen*/
+    @media screen and (max-width: 768px) {
+        width: 25%;
+        padding: 6px;
+        margin-right: 260px;
+    }
+
+    /*Mobile-Screen-2*/
+    @media screen and (max-width: 480px) {
+        width: 36%;
+        padding: 5px;
+        margin: -170px 77px 0px 20px;
+        position: absolute;
+    }
+
+    /*Mobile-Screen-Small*/
+    @media screen and (max-width: 320px) {
+        width: 34%;
+        padding: 5px;
+        margin: -210px 70px;
+        position: absolute;
+    }
+}
+
+.contact-me:hover {
+    background-color: azure;
+    color: black;
+    border-width: 6px;
+}
+
+.contact-me:active {
+    background-color: grey;
+    color: white;
+    border-width: 6px;
+}

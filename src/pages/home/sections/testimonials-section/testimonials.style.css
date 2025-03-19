@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
+.Client-Testimonials{
+    font-family: "Libre Bodoni", serif;
+}
+
+.Clients-Avatar {
+    z-index: 999999999 !important;
+    background-color: rgb(243, 173, 43);
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 10px 20px;
+}
+
+.Client-Name {
+    font-family: "EB Garamond", serif;
+}

@@ -1,0 +1,331 @@
+.NavBar-Styles {
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid gray;
+    height: 70px;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Laptop Screen-5*/
+@media screen and (min-width: 1765px) {
+    .Developer-Logo {
+        img {
+            padding-left: 25px;
+            padding-right: 10px;
+            height: 45px;
+            width: 390px;
+        }
+    }
+
+    .About-Nav {
+        padding-left: 200px;
+        padding-right: 0px;
+        font-size: 28pt;
+    }
+
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 28pt;
+    }
+
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 28pt;
+    }
+
+    .Search-Box {
+        padding-left: 200px;
+        padding-right: 35px;
+    }
+
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 25px;
+        right: 15px;
+    }
+}
+
+/*Laptop Screen-4*/
+@media screen and (max-width: 1736px) {
+.Developer-Logo {
+        img {
+            padding-left: 25px;
+            padding-right: 10px;
+            height: 41px;
+            width: 390px;
+        }
+    }
+    .About-Nav {
+        padding-left: 200px;
+        padding-right: 0px;
+        font-size: 25pt;
+    }
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 25pt;
+    }
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 25pt;
+    }
+    .Search-Box {
+        padding-left: 200px;
+        padding-right: 35px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 25px;
+        right: 15px;
+    }
+}
+
+/*Laptop Screen-3*/
+@media screen and (max-width: 1536px) {
+.Developer-Logo {
+        img {
+            padding-left: 25px;
+            padding-right: 10px;
+            height: 48px;
+            width: 380px;
+        }
+    }
+    .About-Nav {
+        padding-left: 200px;
+        padding-right: 0px;
+        font-size: 20pt;
+    }
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20pt;
+    }
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 20pt;
+    }
+    .Search-Box {
+        padding-left: 200px;
+        padding-right: 25px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 25px;
+        right: 5px;
+    }
+}
+
+/*Laptop Screen-2*/
+@media screen and (max-width: 1336px) {
+    .Developer-Logo {
+        img {
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 52px;
+            width: 270px;
+        }
+    }
+    .About-Nav {
+        padding-left: 220px;
+        padding-right: 0px;
+        font-size: 16pt;
+    }
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16pt;
+    }
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        font-size: 16pt;
+    }
+    .Search-Box {
+        padding-left: 200px;
+        padding-right: 5px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 5px;
+        right: 5px;
+    }
+}
+
+/*Laptop Screen-1*/
+@media screen and (max-width: 1024px) {
+    .Developer-Logo {
+        img {
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 52px;
+            width: 250px;
+        }
+    }
+    .About-Nav {
+        padding-left: 220px;
+        padding-right: 0px;
+    }
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .Search-Box {
+        padding-left: 200px;
+        padding-right: 0px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 0px;
+        right: 5px;
+    }
+}
+
+/*Tablet Screen*/
+@media screen and (max-width: 768px) {
+    .Developer-Logo {
+        img {
+            position: relative;
+            padding-left: 10px;
+            padding-right: 0px;
+            height: 50px;
+            width: 250px;
+        }
+    }
+    .About-Nav {
+        padding-left: 30px;
+        padding-right: 0px;
+        font-size: 14pt;
+    }
+    .Portfolio-Nav {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14pt;
+    }
+    .Contact-Nav {
+        width: 100px;
+        padding-left: 0px;
+        padding-right: 5px;
+        font-size: 14pt;
+    }
+    .Search-Box {
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-left: 0px;
+        padding-right: 5px;
+        right: 5px;
+    }
+}
+
+/*Mobile Screen-Large*/
+@media screen and (max-width: 480px) {
+    .NavBar-Styles {
+        height: 100px;
+    }
+    .Developer-Logo {
+        img {
+            position: relative;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 65px;
+            width: 180px;
+        }
+    }
+    .About-Nav {
+        position: absolute;
+        padding-left: 195px;
+        padding-bottom: 45px;
+        font-size: 10pt;
+    }
+    .Portfolio-Nav {
+        position: absolute;
+        padding-bottom: 45px;
+        padding-left: 245px;
+        font-size: 10pt;
+    }
+    .Contact-Nav {
+        position: absolute;
+        padding-left: 310px;
+        padding-bottom: 45px;
+        font-size: 10pt;
+    }
+    .Search-Box {
+        padding-top: 40px;
+        padding-right: 8px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 8px;
+        right: 5px;
+    }
+}
+
+    /*Mobile Screen-Small*/
+    @media screen and (max-width: 320px) {
+    .NavBar-Styles {
+        height: 100px;
+    }
+    .Developer-Logo {
+        img {
+            position: relative;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 65px;
+            width: 250px;
+        }
+    }
+    .About-Nav {
+        position: absolute;
+        padding-left: 144px;
+        padding-bottom: 45px;
+        font-size: 10pt;
+    }
+    .Portfolio-Nav {
+        position: absolute;
+        padding-bottom: 45px;
+        padding-left: 192px;
+        font-size: 10pt;
+    }
+    .Contact-Nav {
+        position: absolute;
+        padding-left: 255px;
+        padding-bottom: 45px;
+        font-size: 10pt;
+    }
+    .Search-Box {
+        padding-top: 40px;
+        padding-right: 8px;
+    }
+    .Search-Button-Icon {
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 0px;
+        padding-right: 8px;
+        right: 5px;
+    }
+}

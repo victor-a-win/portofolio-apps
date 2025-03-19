@@ -1,6 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
+
 .personal-website {
     margin-left: auto;
-    margin-right: auto;
-    width: 400px;
-    background-color:rgba(66, 63, 63, 0.5);
+    margin-left: auto;
+    overflow-x: hidden;
+    h1{
+        font-size: 25pt;
+        font-weight: 700;
+        font-family: "Libre Bodoni", serif;
+    }
+    p{
+        font-size: 12pt;
+        font-family: "EB Garamond", serif;
+    };
 }
+
+.About-Me-Section {
+    h1 {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+}
+
+.Skill-Section {
+    padding: 6px 0px 6px 15px;
+}
+
+.Experience-Section{
+    background-color: #292F36;
+    padding: 10px 0px 10px 15px;
+    h1{
+        font-size: 25pt;
+        font-weight: 700;
+        font-family: "Libre Bodoni", serif;
+        color: #FFFFFF;
+    };
+    p{
+        font-size: 12pt;
+        font-family: "EB Garamond", serif;
+        color: #FFFFFF
+    };
+}
+
+.Testimonials-Section{
+    background-color: #292F36;
+    padding: 6px 0px 6px 15px;
+    h1{
+        font-size: 25pt;
+        font-weight: 700;
+        font-family: "Libre Bodoni", serif;
+        color: #FFFFFF
+    }
+    p{
+        font-size: 12pt;
+        font-family: "EB Garamond", serif;
+        color: #FFFFFF
+    };
+}
+
+.Contact-Section {
+    padding: 6px 0px 6px 15px;
+};
