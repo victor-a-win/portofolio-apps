@@ -1,6 +1,6 @@
 export default function SendMessage() {
     return (
-        <div className="Chat-on-WhatsApp fixed bottom-[55px] right-0">
+        <div className="Chat-on-WhatsApp fixed bottom-[110px] right-0">
             <a className="animate-pulse"
                 title="Chat on WhatsApp"
                 href=

@@ -8,10 +8,11 @@ export default function Situation() {
             </a>
             </div>
 
-            <div> XYZ Retail, an established retail company, sought to expand into 
+            <div className="sm:text-lg/loose"> 
+                XYZ Retail, an established retail company, sought to expand into 
                 e-commerce to reach a wider audience and streamline its sales processes. 
                 <a className="no-underline hover:underline text-orange-500 pl-2"
-                >They needed a scalable, user-friendly platform </a> 
+                > They needed a scalable, user-friendly platform </a> 
                 to support both desktop and mobile users with features like product browsing, 
                 user reviews, secure checkout, and real-time inventory updates
             </div>

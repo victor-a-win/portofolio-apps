@@ -28,7 +28,7 @@ export default function NavBar() {
                         </textarea>
                     </div>
                 </form>
-                <button className="sticky pb-2 right-0 cursor-wait caret-pink-600">
+                <button className="sticky right-0 cursor-wait caret-pink-600">
                     <MagnifyingGlassCircleIcon className="size-7 text-blue-500" />
                 </button>
             </div>

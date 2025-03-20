@@ -5,7 +5,7 @@ export default function TimeLine() {
             <div className="mt-2 mr-3 ">
                 2023-2024
             </div>
-            <div className="mt-56 mr-3 sm:mt-40">
+            <div className="mt-60 mr-3 sm:mt-56">
                 2025-Present
             </div>
         </div>

@@ -7,7 +7,8 @@ export default function Task() {
                 >Task</a>    
             </div>
                     
-            <div> I was responsible for building the front-end and back-end components of the platform, 
+            <div className="sm:text-lg/loose"> 
+                I was responsible for building the front-end and back-end components of the platform, 
                 ensuring seamless integration with the clients inventory and payment systems. 
                 <a className="no-underline hover:underline text-orange-500 pl-2">
                     The project goal was to create an efficient, high-performing application

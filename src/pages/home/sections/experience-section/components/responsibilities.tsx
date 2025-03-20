@@ -6,10 +6,10 @@ export default function Jobdesk () {
             <div className="font-serif text-[20px] text-left mr-1 sm:text-[24px] text-orange-600">
                 R Project Programming
             </div>
-            <div className="font-serif text-[12pt] mr-5 sm:text-[15pt]">
+            <div className="font-serif text-[12pt] mr-5 sm:text-xl/loose">
                 Universitas Brawijaya
             </div>
-            <div className="indent-5 mr-7 mt-2 sm:text-[18px]">
+            <div className="indent-5 mr-7 mt-2 sm:text-lg/loose">
                 Using Phyton and R, I am working on big data for fish biology in the East Java Sea waters. 
                 In addition, while working with the research team of lecturers at this educational institution, 
                 I studied programming languages ​​independently.
@@ -19,10 +19,10 @@ export default function Jobdesk () {
                             sm:mt-10 sm:text-[24px]  text-orange-600"
             > Full-Stack Developer
             </div>
-            <div className="font-serif text-[12pt] sm:text-[15pt]"
+            <div className="font-serif text-[12pt] sm:text-xl/loose"
             > XYZ Corp
             </div>
-            <div className="indent-5 mr-7 mt-2 sm:text-[18px]">
+            <div className="indent-5 mr-7 mt-2 sm:text-lg/loose">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ratione dolore incidunt dignissimos similique, 
                 vero ut magnam. Neque odit vel vero at modi. Ullam, quos amet nisi corrupti similique qui.
             </div>
