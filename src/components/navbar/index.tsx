@@ -22,30 +22,30 @@ export default function NavBar() {
 
             <div className="flex flex-row justify-center ml-7 sm:mr-72">
                 <form>
-                    <div>
-                        <textarea className="field-sizing-fixed w-25 sm:w-[300px] ... rounded-lg sm:ml-72" 
+                    <div >
+                        <textarea className="field-sizing-fixed w-25 sm:w-[300px] ... rounded-lg sm:ml-72 caret-pink-600" 
                                             rows={1} placeholder="Search">
                         </textarea>
                     </div>
                 </form>
-                <button className="sticky right-0 cursor-wait caret-pink-600">
-                    <MagnifyingGlassCircleIcon className="size-7 text-blue-500" />
+                <button className="relative pb-2 right-0 cursor-wait">
+                    <MagnifyingGlassCircleIcon className="size-7 sm:size-10 text-blue-500" />
                 </button>
             </div>
 
             <div className="flex flex-row justify-evenly text-orange-400 mb-1 sm:text-xl">
                 <div className="">
-                    <button onClick={() => router.push("about-me")}
+                    <button onClick={() => router.push("./about-me")}
                         >About
                     </button>
                     </div>
                 <div className="">
-                    <button onClick={() => router.push("my-portfolio")}
+                    <button onClick={() => router.push("./my-portfolio")}
                         >Portfolio
                     </button>
                 </div>
                 <div className="">
-                    <button onClick={() => router.push("contact-me")}
+                    <button onClick={() => router.push("./contact-me")}
                         >Contact
                     </button>
                 </div>

@@ -15,33 +15,41 @@ export default function SideBar() {
                     ${isOpen ? 'w-28 sm:w-48' : 'w-0 overflow-hidden'
                 }`}>
                     <div className="flex flex-col items-center">
-                        <div className="mt-4">
+                        <div className="mt-4 sm:text-xl">
+                            <button>
                             <a  onClick={() => router.push("/")}
                                 className="text-white 
                                  hover:text-gray-300"
                             > Home
                             </a>
+                            </button>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 sm:text-xl">
+                            <button>
                             <a  onClick={() => router.push("about-me")}
                                 className="text-white 
                                  hover:text-gray-300"
                             > About
                             </a>
+                            </button>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 sm:text-xl">
+                            <button>
                             <a  onClick={() => router.push("my-portfolio")}
                                 className="text-white 
                                  hover:text-gray-300"
                             > Portfolio
                             </a>
+                            </button>
                         </div>
-                        <div className="mt-4">
+                        <div className="mt-4 sm:text-xl">
+                            <button>
                             <a  onClick={() => router.push("contact-me")}
                                 className="text-white 
                                  hover:text-gray-300"
                             > Contact
                             </a>
+                            </button>
                         </div>  
                     </div>
             </div>
