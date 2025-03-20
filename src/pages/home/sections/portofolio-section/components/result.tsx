@@ -7,8 +7,10 @@ export default function Result() {
                 >Result
             </a>
             </div>
-            <div> The project was completed on time, leading to a 35% increase in online sales within the first three months. 
-                User feedback highlighted the site's speed and ease of use, 
+            <div> The project was completed on time, 
+                <a className="no-underline hover:underline text-orange-500 pl-2">
+                    leading to a 35% increase in online sales within the first three months.
+                </a> User feedback highlighted the site's speed and ease of use, 
                 and the client reported a substantial reduction in manual inventory management tasks.
             </div>
             <br />

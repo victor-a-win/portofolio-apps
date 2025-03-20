@@ -17,8 +17,8 @@ export default function FrontEndSkills() {
                 <div className="Box-Skill3 border-2 border-orange-500 w-[70px] h-[74px] ml-[8px] pr-2 rounded-xl shadow-md
                                 sm:w-[140px] sm:h-[144px] sm:mr-5"
                 >
-                    <img className="size-14 mt-1 sm:size-28 sm:ml-2 sm:mt-2" src="JS-Logo.png" alt="JS-Logo" />
-                    <div className="pl-1 text-[8px] sm:text-[14px] font-bold sm:pl-6">JavaScript</div>
+                    <img className="size-14 mt-1 sm:size-28 sm:ml-1 sm:mt-1" src="JS-Logo.png" alt="JS-Logo" />
+                    <div className="pl-1 text-[8px] sm:text-[14px] font-bold sm:pl-5 sm:mt-0">JavaScript</div>
                 </div>
                 
                 <div className="Box-Skill4 border-2 border-orange-500 w-[70px] h-[74px] ml-1 pr-1 rounded-xl shadow-md

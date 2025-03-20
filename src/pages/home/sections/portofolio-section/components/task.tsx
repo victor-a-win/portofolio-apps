@@ -9,7 +9,9 @@ export default function Task() {
                     
             <div> I was responsible for building the front-end and back-end components of the platform, 
                 ensuring seamless integration with the clients inventory and payment systems. 
-                The project goal was to create an efficient, high-performing application with a smooth user experience.
+                <a className="no-underline hover:underline text-orange-500 pl-2">
+                    The project goal was to create an efficient, high-performing application
+                </a> with a smooth user experience.
             </div>
             <br />
             <div className="grid grid-flow-col grid-cols-3 grid-rows-1 gap-4">

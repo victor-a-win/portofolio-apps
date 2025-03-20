@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 .Footer-Styles {
-    margin-left: auto;
-    margin-right: auto;
     font-family: "Nunito", sans-serif;
-    font-size: 18pt;
-    font-weight: 700;
-    color: orange;
-    background-color: #1A1A1A;
-    text-align: center;
 }

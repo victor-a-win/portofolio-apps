@@ -20,14 +20,14 @@ export default function HeroSection() {
             </div>
 
             <div 
-                className="absolute pt-[180px] inset-y-0 right-5 s
-                            m:pl-[10px] sm:pt-[240px] sm:right-16 
+                className="absolute pt-[180px] inset-y-0 right-5
+                            sm:pl-[12px] sm:pt-[240px] sm:right-16 sm:top-10
                             lg:pt-[105px] lg:right-15"
                 > <Avatar />
             </div>
 
             <div
-                className="relative text-white text-[15px] text-justify pl-4 pr-5 pt-[220px] 
+                className="relative text-white text-[15px] text-justify pl-4 pr-5 pt-[180px] 
                             sm:text-[22px] sm:pl-[35px] sm:text-left sm:pt-10 sm:pr-[340px] 
                             lg:pr-[630px] lg:text-[25px]"
                 > <BriefIntro />
@@ -38,7 +38,6 @@ export default function HeroSection() {
                             sm:text-[20px] sm:pl-4 sm:pt-2"
             > <Cta />
             </div>
-            
             <br />
         </div>
     );

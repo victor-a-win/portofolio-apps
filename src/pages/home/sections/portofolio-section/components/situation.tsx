@@ -10,9 +10,10 @@ export default function Situation() {
 
             <div> XYZ Retail, an established retail company, sought to expand into 
                 e-commerce to reach a wider audience and streamline its sales processes. 
-                They needed a scalable, user-friendly platform to support both desktop and 
-                mobile users with features like product browsing, user reviews, secure 
-                checkout, and real-time inventory updates
+                <a className="no-underline hover:underline text-orange-500 pl-2"
+                >They needed a scalable, user-friendly platform </a> 
+                to support both desktop and mobile users with features like product browsing, 
+                user reviews, secure checkout, and real-time inventory updates
             </div>
             <br />
             <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
