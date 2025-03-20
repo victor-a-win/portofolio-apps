@@ -1,18 +1,21 @@
+'use client'
 import "./footer.styles.css"
 
 import { ChevronDoubleUpIcon } from "@heroicons/react/20/solid"
+import { useRouter } from "next/navigation"
 
 export default function Footer() {
+    const router = useRouter()
     return (
         <div className="Footer-Styles flex flex-col bg-black">
-            <div className="justify-items-center">
-                <ChevronDoubleUpIcon className="size-11 text-sky-500 md:size-12" />
-            </div>
+            <button className="justify-items-center scroll-smooth" onClick={() => router.push("/")}>
+                <ChevronDoubleUpIcon className="size-11 text-sky-500 sm:size-16" />
+            </button>
             <div className=
-                "ml-auto mr-auto text-2xl text-orange-400 text-center font-bold"
+                "ml-auto mr-auto text-2xl text-orange-400 text-center font-bold sm:text-3xl/8"
                 > BACK TO TOP
             </div>
-            <div className="bg-black text-sm text-white text-center text-[16px]">
+            <div className="bg-black text-sm text-white text-center sm:text-lg/10">
                 © 2025 ViTech Studio. All rights reserved.
             </div>
         </div>

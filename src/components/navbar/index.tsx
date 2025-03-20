@@ -8,7 +8,7 @@ export default function NavBar() {
     const router = useRouter()
 
     return(
-        <div className="NavBar-Styles flex-col">
+        <div className="NavBar-Styles bg-[url('/Navigation_Background.png')] flex-col bg">
             <div className="flex flex-row justify-between">
                 <div className="mr-24 -mt-1">
                     <SideBar />
@@ -33,18 +33,18 @@ export default function NavBar() {
                 </button>
             </div>
 
-            <div className="flex flex-row justify-evenly text-orange-400 mb-1 sm:text-xl">
+            <div className="flex flex-row justify-center gap-8 sm:gap-20 text-orange-400 mt-1 mb-2 sm:text-2xl/loose">
                 <div className="">
                     <button onClick={() => router.push("./about-me")}
                         >About
                     </button>
                     </div>
-                <div className="">
+                <div>
                     <button onClick={() => router.push("./my-portfolio")}
                         >Portfolio
                     </button>
                 </div>
-                <div className="">
+                <div>
                     <button onClick={() => router.push("./contact-me")}
                         >Contact
                     </button>

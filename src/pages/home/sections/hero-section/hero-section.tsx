@@ -21,8 +21,8 @@ export default function HeroSection() {
 
             <div 
                 className="absolute pt-[180px] inset-y-0 right-5
-                            sm:pl-[12px] sm:right-20 sm:top-24
-                            lg:pt-[105px] lg:right-15"
+                            sm:pl-[12px] sm:right-20 sm:top-28
+                            lg:pt-[105px] lg:right-11"
                 > <Avatar />
             </div>
 
