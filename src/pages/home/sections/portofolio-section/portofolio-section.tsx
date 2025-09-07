@@ -11,9 +11,9 @@ export default function PortfolioSection() {
   const [activeTab, setActiveTab] = useState("situation");
 
   return (
-    <div className="Portfolio-Section dark:text-gray-900 py-8">
+    <div className="Portfolio-Section text-black py-8">
       <div className="Header-Portfolio text-center mb-8">
-        <h1 className="text-4xl font-bold bg-gradient-to-r text-black bg-clip-text text-transparent">
+        <h1 className="text-4xl font-bold text-black">
           Portfolio
         </h1>
         <p className="text-black mt-2">My Project Showcase</p>
