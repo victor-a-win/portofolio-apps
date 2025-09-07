@@ -6,7 +6,7 @@ import "./about.style.css"
 
 export default function AboutMeSection() {
     return (
-        <div className="About-Me-Section">
+        <div className="About-Me-Section dark:text-gray-900">
             <h1>About</h1>
             <div 
                 className="text-justify text-[14.5px] pl-9 pr-8 pb-2 indent-5 border-x-4 border-orange-400

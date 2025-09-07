@@ -38,7 +38,7 @@ export default function ContactForm() {
                  <button className="cursor-pointer">Send Message</button>
             </div>
             <div className="relative ml-36 bottom-6 pl-1 animate-bounce cursor-wait"> 
-                <img src="send-mail.png" alt="send message logo" />
+                <img src="send-mail.webp" alt="send message logo" />
             </div>
         </div>
     );

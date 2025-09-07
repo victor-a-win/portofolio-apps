@@ -3,7 +3,7 @@ export default function Action() {
         <div className="Action">
             <div>
             <br />
-            <a className="no-underline hover:underline text-orange-600 pl-0 text-base sm:text-xl"
+            <a className="no-underline hover:underline text-orange-700 text-base sm:text-xl"
                 >Action
             </a>
             </div>
@@ -17,13 +17,13 @@ export default function Action() {
             <br />
             <div className="grid grid-flow-col grid-cols-3 grid-rows-1 gap-4">
                 <div>
-                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="UI-UX-Design.jpg" alt="UI-UX-Design Img" />
+                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="UI-UX-Design.webp" alt="UI-UX-Design Img" />
                 </div>
                 <div>
-                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="API_database.jpg" alt="API database Img"/>
+                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="API_database.webp" alt="API database Img"/>
                 </div>
                 <div>
-                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="working_group.jpg" alt="Working Group Img" />
+                    <img className="w-[100px] h-[65px] sm:w-[320px] sm:h-[200px] rounded-lg" src="working_group.webp" alt="Working Group Img" />
                 </div>
             </div>
         </div>

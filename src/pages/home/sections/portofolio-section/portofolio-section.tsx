@@ -7,7 +7,7 @@ import "./portofolio.style.css"
 
 export default function PortfolioSection() {
     return (
-        <div className="Portfolio-Section">
+        <div className="Portfolio-Section dark:text-gray-900">
             <div className="Header-Portfolio">
                 <h1>Portfolio</h1>
             </div>

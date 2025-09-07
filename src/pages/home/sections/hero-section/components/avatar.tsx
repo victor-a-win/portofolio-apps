@@ -6,7 +6,7 @@ export default function Avatar() {
                             sm:h-[300px] sm:w-[250px]
                             lg:h-[390px] lg:w-[385px] lg:mt-[15px] lg:mr-30
                             2xl:mr-[200px]"
-                src="Victor_A_Winata_nobg.png" 
+                src="Victor_A_Winata_nobg.webp" 
                 alt="professional photo"
             />
             </span>

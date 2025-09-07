@@ -8,7 +8,9 @@ export default function Footer() {
     const router = useRouter()
     return (
         <div className="Footer-Styles flex flex-col bg-black">
-            <button className="justify-items-center scroll-smooth" onClick={() => router.push("/")}>
+            <button 
+                title="Back To Header Page" 
+                className="justify-items-center scroll-smooth" onClick={() => router.push("/")}>
                 <ChevronDoubleUpIcon className="size-11 text-sky-500 sm:size-16" />
             </button>
             <div className=

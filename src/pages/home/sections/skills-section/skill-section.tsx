@@ -6,7 +6,7 @@ import "./skills.style.css"
 
 export default function SkillsSection() {
     return (
-        <div className="Skill-Section">
+        <div className="Skill-Section dark:text-gray-900">
             <h1>My Skills</h1>
             <br />
             <div className="flex flex-col">

@@ -8,14 +8,14 @@ export default function NavBar() {
     const router = useRouter()
 
     return(
-        <div className="NavBar-Styles bg-[url('/Navigation_Background.png')] flex-col bg">
+        <div className="NavBar-Styles bg-[url('/Navigation_Background.webp')] flex-col">
             <div className="flex flex-row justify-between">
                 <div className="mr-24 -mt-1">
                     <SideBar />
                 </div>             
                 <div className="size-12 sm:size-24 mt-3 mr-2">
                     <button onClick={() => router.push("/")}>
-                        <img className="rounded-lg" src="Developer_Logo2.png" alt="Developer Logo" />
+                        <img className="rounded-lg" src="Developer_Logo2.webp" alt="Developer Logo" />
                     </button>
                 </div>
             </div>
@@ -28,13 +28,13 @@ export default function NavBar() {
                         </textarea>
                     </div>
                 </form>
-                <button className="relative pb-2 right-0 cursor-wait">
+                <button title="Search Button" className="relative pb-2 right-0 cursor-wait">
                     <MagnifyingGlassCircleIcon className="size-7 sm:size-10 text-blue-500" />
                 </button>
             </div>
 
-            <div className="flex flex-row justify-center gap-8 sm:gap-20 text-orange-400 mt-1 mb-2 sm:text-2xl/loose">
-                <div className="">
+            <div className="flex flex-row justify-center gap-8 sm:gap-20 text-orange-400 mb-1 sm:text-2xl/loose">
+                <div>
                     <button onClick={() => router.push("./about-me")}
                         >About
                     </button>

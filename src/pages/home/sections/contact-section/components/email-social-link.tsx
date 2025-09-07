@@ -22,7 +22,7 @@ export default function EmailSocialLink() {
                             "https://www.linkedin.com/in/victor-adi-winata-5009ba297"
                             target="_blank"
                         >
-                        <img src="linkedin.png" alt="LinkedIn Logo" />
+                        <img src="linkedin.webp" alt="LinkedIn Logo" />
                     </a>
                 </div>
 
@@ -34,7 +34,7 @@ export default function EmailSocialLink() {
                             "https://github.com/victor-a-win"
                             target="_blank"
                         >
-                        <img src="github-logo.png" alt="GitHub Logo" />
+                        <img src="github-logo.webp" alt="GitHub Logo" />
                     </a>
                 </div>
             </div>
