@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 
-.Experience-Section{
+.Experience-Section {
     font-family: "EB Garamond", serif;
-    padding-right: 6px;
-    padding-left: 15px;
+    padding: 2rem;
 }
 
 .Timeline {
     font-family: "Libre Bodoni", serif;
+}
+
+/* Animation for timeline dots */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/* Hover effects for timeline items */
+.relative:hover .bg-gray-800 {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+}
+
+/* Smooth transitions */
+.Experience-Section * {
+    transition: all 0.3s ease;
 }
