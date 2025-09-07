@@ -14,7 +14,7 @@ export default function Situation() {
                 <a className="no-underline hover:underline text-orange-700 pl-2"
                 > They needed a scalable, user-friendly platform </a> 
                 to support both desktop and mobile users with features like product browsing, 
-                user reviews, secure checkout, and real-time inventory updates
+                user reviews, secure checkout, and real-time inventory updates.
             </div>
             <br />
             <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">

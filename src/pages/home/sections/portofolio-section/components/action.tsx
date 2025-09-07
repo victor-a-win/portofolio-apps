@@ -9,9 +9,18 @@ export default function Action() {
             </div>
 
             <div className="sm:text-lg/loose"> 
-                Using React for the front-end, I designed a responsive, intuitive UI focused on user engagement and easy navigation. 
-                On the back end, I developed RESTful APIs with Node.js and MongoDB for data management. 
-                Additionally, I integrated the platform with AWS to optimize loading times and set up a CI/CD pipeline for faster deployment and testing. 
+                Using <a className="no-underline hover:underline text-orange-700 pl-2">
+                    React
+                </a> for the front-end, I designed a responsive, intuitive UI focused on user engagement and easy navigation. 
+                On the back end, I developed RESTful APIs with 
+                <a className="no-underline hover:underline text-orange-700 pl-2">
+                    Node.js and MongoDB
+                </a> for data management. 
+                Additionally, I integrated the platform with 
+                <a className="no-underline hover:underline text-orange-700 pl-2">
+                    AWS
+                </a>  
+                to optimize loading times and set up a CI/CD pipeline for faster deployment and testing. 
                 I worked closely with designers and QA to address usability and accessibility standards.
             </div>
             <br />
