@@ -13,10 +13,10 @@ export default function PortfolioSection() {
   return (
     <div className="Portfolio-Section dark:text-gray-900 py-8">
       <div className="Header-Portfolio text-center mb-8">
-        <h1 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+        <h1 className="text-4xl font-bold bg-gradient-to-r text-black bg-clip-text text-transparent">
           Portfolio
         </h1>
-        <p className="text-gray-600 mt-2">My Project Showcase</p>
+        <p className="text-black mt-2">My Project Showcase</p>
       </div>
 
       {/* Tab Navigation */}

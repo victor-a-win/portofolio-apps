@@ -10,7 +10,7 @@ const testimonials = [
     text: "The design quality, flexibility, documentation and support are all absolutely excellent. I bought the ViTech Studio for all my clients, knowing that whatever they require, ViTech Studio will be able to deliver",
     name: "Maulana Maulida",
     position: "CEO, XYZ Retails",
-    image: "CEO_XYZ_retail.webp"
+    image: "CEO_XYZ.webp"
   },
   {
     id: 2,

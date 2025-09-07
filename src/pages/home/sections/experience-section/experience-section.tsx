@@ -45,7 +45,9 @@ export default function ExperienceSection() {
 
   return (
     <div className="Experience-Section">
-      <h1 className="text-3xl font-bold mb-8 text-center">Professional Experience</h1>
+      <h1 className="text-3xl text-black font-bold mt-2 mb-8 text-center">
+        Professional Experience
+      </h1>
       
       <div className="flex flex-col md:flex-row">
         {/* Timeline */}
