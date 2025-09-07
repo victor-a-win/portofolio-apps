@@ -1,23 +1,55 @@
-import Action from "./components/action";
-import Result from "./components/result";
+"use client"
+
+import { useState } from "react";
 import Situation from "./components/situation";
 import Task from "./components/task";
-
-import "./portofolio.style.css" 
+import Action from "./components/action";
+import Result from "./components/result";
+import "./portofolio.style.css";
 
 export default function PortfolioSection() {
-    return (
-        <div className="Portfolio-Section dark:text-gray-900">
-            <div className="Header-Portfolio">
-                <h1>Portfolio</h1>
-            </div>
-            <div className="text-justify text-[14.5px] pl-9 pr-8 pb-2 indent-5
-                            sm:text-[18px] sm:pl-15 sm:pr-[210px] sm:pt-0 sm:pb-7 sm:indent-8">
-                <Situation />
-                <Task />
-                <Action />
-                <Result />
-            </div>
+  const [activeTab, setActiveTab] = useState("situation");
+
+  return (
+    <div className="Portfolio-Section dark:text-gray-900 py-8">
+      <div className="Header-Portfolio text-center mb-8">
+        <h1 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-orange-800 bg-clip-text text-transparent">
+          Portfolio
+        </h1>
+        <p className="text-gray-600 mt-2">My Project Showcase</p>
+      </div>
+
+      {/* Tab Navigation */}
+      <div className="flex justify-center mb-8">
+        <div className="flex flex-wrap gap-2 bg-gray-100 p-2 rounded-lg shadow-inner">
+          {[
+            { id: "situation", label: "Situation" },
+            { id: "task", label: "Task" },
+            { id: "action", label: "Action" },
+            { id: "result", label: "Result" }
+          ].map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`px-4 py-2 rounded-md font-medium transition-all duration-300 ${
+                activeTab === tab.id
+                  ? "bg-orange-600 text-white shadow-md"
+                  : "text-gray-700 hover:bg-orange-100"
+              }`}
+            >
+              {tab.label}
+            </button>
+          ))}
         </div>
-    )
+      </div>
+
+      {/* Content Area */}
+      <div className="portfolio-content bg-white rounded-xl shadow-lg p-6 max-w-6xl mx-auto">
+        {activeTab === "situation" && <Situation />}
+        {activeTab === "task" && <Task />}
+        {activeTab === "action" && <Action />}
+        {activeTab === "result" && <Result />}
+      </div>
+    </div>
+  );
 }

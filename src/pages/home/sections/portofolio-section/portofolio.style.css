@@ -1,50 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
-.Header-Portfolio {
-    /* background-image: url('/Header_Portofolio.webp'); */
-    background-color: white;
-    height: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    font-size: 28pt;
-    font-weight: 700;
-    color: black;
-    padding: 4px 0px 4px 15px;
+.Portfolio-Section {
+  font-family: "EB Garamond", serif;
 }
 
-.Situation {
-    font-family: "EB Garamond", serif;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+.portfolio-content {
+  min-height: 500px;
+  transition: all 0.3s ease;
 }
 
-.Task{
-    font-family: "EB Garamond", serif;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+/* Enhanced image hover effects */
+.Situation img:hover,
+.Task img:hover,
+.Action img:hover,
+.Result img:hover {
+  box-shadow: 0 0 15px rgba(234, 88, 12, 0.4);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
 }
 
-.Situation{
-    font-family: "EB Garamond", serif;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+/* Smooth transitions for tab content */
+.tab-content {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-.Action{
-    font-family: "EB Garamond", serif;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-.Result{
-    font-family: "EB Garamond", serif;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .portfolio-content {
+    padding: 1rem;
+  }
+  
+  .grid-cols-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
 }
