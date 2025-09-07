@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 .Header-Portfolio {
-    background-image: url('/Header_Portofolio.webp');
-    background-color: orange;
+    /* background-image: url('/Header_Portofolio.webp'); */
+    background-color: white;
     height: 60px;
     background-position: center;
     background-repeat: no-repeat;
