@@ -1,22 +1,22 @@
-export default function ClientTestimoni() {
-    return (
-        <div className="Client-Testimonials">
-            <div className="pr-5 indent-5 
-                            sm:text-lg/loose sm:mr-20 sm:ml-10 sm:mt-8"
-                >
-                <span className="border-t-4 border-orange-300"
-                    >The design</span> quality, flexibility, 
-                    documentation and support are all absolutely excellent. 
-                    I bought the ViTech Studio for all my clients, 
-                    knowing that whatever they require, ViTech Studio will be able to deliver
-            </div>
-            <br />
-            <div className="Client-Name">
-                <span className="pl-2 ml-12 sm:text-[18px] sm:ml-10 border-t-4 border-orange-300"
-                > Maulana Maulida
-                </span>
-                <div className="pl-2 ml-12 sm:text-[18px] sm:ml-9 ">CEO, XYZ Retails</div>
-            </div>
-        </div>
-    )
+interface ClientTestimoniProps {
+  text: string;
+  name: string;
+  position: string;
+}
+
+export default function ClientTestimoni({ text, name, position }: ClientTestimoniProps) {
+  return (
+    <div className="Client-Testimonials">
+      <div className="text-lg leading-relaxed italic mb-8">
+        <span className="text-orange-400 font-bold text-xl">"</span>
+        {text}
+        <span className="text-orange-400 font-bold text-xl">"</span>
+      </div>
+      
+      <div className="Client-Name border-l-4 border-orange-500 pl-4">
+        <div className="text-xl font-bold">{name}</div>
+        <div className="text-orange-400">{position}</div>
+      </div>
+    </div>
+  );
 }

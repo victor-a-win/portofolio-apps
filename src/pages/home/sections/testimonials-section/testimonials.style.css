@@ -1,20 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap');
 
-.Client-Testimonials{
+.Client-Testimonials {
     font-family: "Libre Bodoni", serif;
 }
 
 .Clients-Avatar {
-    z-index: 999999999 !important;
-    background-color: rgb(243, 173, 43);
-    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 10px 20px;
-    img:hover {
-        box-shadow: 0 0 8px 4px rgba(0, 140, 186, 0.5)
-    }
+    z-index: 10;
+    transition: all 0.4s ease;
 }
 
 .Client-Name {
     font-family: "EB Garamond", serif;
+}
+
+/* Animation for testimonial transition */
+.testimonial-enter {
+    opacity: 0;
+    transform: translateX(30px);
+}
+
+.testimonial-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.testimonial-exit {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.testimonial-exit-active {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Pulse animation for rating */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .Testimonials-Section .container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Clients-Avatar {
+        margin-top: 3rem;
+    }
+    
+    .Clients-Avatar img {
+        width: 280px;
+        height: 280px;
+    }
 }
